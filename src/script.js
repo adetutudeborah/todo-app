@@ -37,7 +37,7 @@ function addTodo(text) {
       <label for="${todo.id}" class="tick js-tick"></label>
       <span>${todo.text}</span>
       <button class="delete-todo js-delete-todo">
-      <svg><use href="#delete-icon"></use></svg>
+      <i class="fa-solid fa-xmark delete-icon"></i>
       </button>
     `;
   
